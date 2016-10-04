@@ -1,10 +1,14 @@
+PImage photo;
 //your code here
 void setup()
 {
+	size (900,500);
+	photo = loadImage("NoMansSky.jpg");
 	//your code here
 }
 void draw()
-{
+{	
+	image(photo, 0, 0);
 	//your code here
 }
 class NormalParticle
